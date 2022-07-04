@@ -67,13 +67,57 @@ header{
 
 
 main{
-    flex-grow: 1;
-    width: 100%;
     background-image: linear-gradient(rgba(255,255,255,1),rgba(255,255,255,1), rgba(255,255,255,0));
     -webkit-backdrop-filter: blur(2px);
     backdrop-filter: blur(2px);
+
+    flex-grow: 1;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
 }
 
+main #textBox{
+    position: relative;
+    max-width: 400px;
+}
+
+main #textBox h2{
+    color: black;
+    font-size: 3em;
+    line-height: 1.3em;
+    font-weight: 500;    
+}
+
+main #textBox h2 span{
+    color: #e3170a;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
+main #textBox p{
+    color: black;
+    margin-top: 20px;  
+    text-align: justify;   
+}
+
+main #textBox a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: black;
+    color: white;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+#boardFlower
+
 #socialMedia{
-    max-width: 20px;
+    width: 20px;
 }
