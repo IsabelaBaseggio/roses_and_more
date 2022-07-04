@@ -27,10 +27,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-image: url(/images/texture.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-shadow: 0 0 0.2em black, 0 0 0.2em black, 0 0 0.2em black, 0 0 0.2em black;
+    background-color: white;
 }
 
 
@@ -62,8 +59,7 @@ header{
 
 #menu li a{
     display: inline-block;
-    color: white;
-    text-shadow: 0 0 0.2em black, 0 0 0.2em black;
+    color: black;
     font-weight: 400;
     padding: 20px;
     text-decoration: none;
@@ -73,9 +69,9 @@ header{
 main{
     flex-grow: 1;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.3);
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
+    background-image: linear-gradient(rgba(255,255,255,1),rgba(255,255,255,1), rgba(255,255,255,0));
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
 }
 
 #socialMedia{
