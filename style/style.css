@@ -116,7 +116,53 @@ main #textBox a{
     text-decoration: none;
 }
 
-#boardFlower
+#boardFlower{
+    position: relative;
+    max-width: 400px;
+}
+
+#boardFlower ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#boardFlower ul li{
+    list-style: none;
+}
+
+#boardFlower ul #word div{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: white;
+    font-size: 2em;
+    font-weight: 400;
+    color: #e3170a;
+    box-shadow: 0 0 1em black;
+    margin-right: 0;
+}
+
+#boardFlower ul #flowers div{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-image: url(/images/roses.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 1em black;    
+}
+
+#boardFlower ul #flowersBg div{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-image: url(/images/roses_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 1em black;
+    text-align: center;
+}
 
 #socialMedia{
     width: 20px;
