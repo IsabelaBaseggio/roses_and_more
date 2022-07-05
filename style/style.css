@@ -128,7 +128,6 @@ main #textBox a{
 
 #boardFlower ul li{
     list-style: none;
-    border-radius: 100%;
 }
 
 #boardFlower ul #word div{
@@ -168,5 +167,16 @@ main #textBox a{
 }
 
 #socialMedia{
+    position: relative;
     width: 20px;
+}
+
+#socialMedia ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#socialMedia ul li{
+    list-style: none;
 }
