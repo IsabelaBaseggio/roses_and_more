@@ -9,7 +9,7 @@ body{
     flex-direction: column;
     max-width: 100%;
     min-height: 100vh;
-    background-image: url(/images/roses_bg.jpg);
+    background-image: url(/images/iris_bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -93,20 +93,19 @@ main #textBox h2{
 }
 
 main #textBox h2 span{
-    color: #e3170a;
+    color: #A882DD;
     font-size: 1.2em;
     font-weight: 900;
 }
 
 main #textBox p{
     color: black;
-    margin-top: 20px;  
+    margin: 20px 0; 
     text-align: justify;   
 }
 
 main #textBox a{
     display: inline-block;
-    margin-top: 20px;
     padding: 8px 20px;
     background: black;
     color: white;
@@ -118,7 +117,7 @@ main #textBox a{
 
 #boardFlower{
     position: relative;
-    max-width: 400px;
+    max-width: 450px;
 }
 
 #boardFlower ul{
@@ -129,35 +128,39 @@ main #textBox a{
 
 #boardFlower ul li{
     list-style: none;
+    border-radius: 100%;
 }
 
 #boardFlower ul #word div{
-    width: 100px;
-    height: 100px;
+    margin: auto;
+    margin-right: 0;
+    width: 110px;
+    height: 110px;
     border-radius: 100%;
     background-color: white;
     font-size: 2em;
     font-weight: 400;
-    color: #e3170a;
+    color: #A882DD;
     box-shadow: 0 0 1em black;
-    margin-right: 0;
+    text-align: center;
+    line-height: 110px;
 }
 
 #boardFlower ul #flowers div{
-    width: 100px;
-    height: 100px;
+    width: 130px;
+    height: 130px;
     border-radius: 100%;
-    background-image: url(/images/roses.jpg);
+    background-image: url(/images/iris.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     box-shadow: 0 0 1em black;    
 }
 
 #boardFlower ul #flowersBg div{
-    width: 200px;
-    height: 200px;
+    width: 170px;
+    height: 170px;
     border-radius: 100%;
-    background-image: url(/images/roses_bg.jpg);
+    background-image: url(/images/iris_bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 0 0 1em black;
