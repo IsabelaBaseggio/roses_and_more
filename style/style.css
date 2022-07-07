@@ -116,59 +116,69 @@ main #textBox a{
 }
 
 #boardFlower{
+    display: grid;
     position: relative;
-    max-width: 450px;
+    flex-grow: 1;
+    place-items: center;
 }
 
-#boardFlower ul{
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-
-#boardFlower ul li{
-    list-style: none;
-}
-
-#boardFlower ul #word div{
-    margin: auto;
-    margin-right: 0;
-    width: 110px;
-    height: 110px;
-    border-radius: 100%;
-    background-color: white;
-    font-size: 2em;
+#containerWord{
+    position: absolute;
+    font-size: 4em;
     font-weight: 400;
     color: #e94f37;
-    box-shadow: 0 0 1em black;
     text-align: center;
-    line-height: 110px;
+    margin-bottom: 450px;
+    margin-right: 180px;
+    z-index: 2;
+    text-shadow: 0 0 1em black;
 }
 
-#boardFlower ul #flowers div{
-    width: 130px;
-    height: 130px;
-    border-radius: 100%;
+#word{
+    text-shadow: 0 0 1em black;
+}
+
+#word span{
+    position: absolute;
+    height: 280px;
+    width: 150px;
+    transform-origin: bottom center;
+    text-shadow: 0 0 1em black;
+}
+
+
+#flowers{
+    width: 330px;
+    height: 330px;
+    border-radius: 50%;
+    position: absolute;
     background-image: url(/images/begonia.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    box-shadow: 0 0 1em black;    
+    box-shadow: inset 0 0 1em black;
+    border-style: solid;
+    border-width: 30px;
+    border-color: white;
+    z-index: 1;
 }
 
-#boardFlower ul #flowersBg div{
-    width: 170px;
-    height: 170px;
-    border-radius: 100%;
+#flowersBg{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    position: absolute;
     background-image: url(/images/begonia_bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow: 0 0 1em black;
-    text-align: center;
+    box-shadow: inset 0 0 1em black;
+    z-index: 0;
+    margin-top: 200px;
+    margin-left: 200px;
 }
 
 #socialMedia{
     position: relative;
-    width: 20px;
+    min-width: 20px;
 }
 
 #socialMedia ul{
