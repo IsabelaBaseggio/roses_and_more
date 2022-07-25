@@ -21,7 +21,7 @@ rotate();
 
 function rose(){
 
-    document.body.style.backgroundImage = "url('/images/roses_bg.jpg')";
+    document.body.style.backgroundImage = "url('../images/roses_bg.jpg')";
 
     let feelings = document.getElementById("feelings");
     feelings.style.color = "#E3170A";
@@ -33,10 +33,10 @@ function rose(){
     rotate();
 
     let flowers = document.getElementById("flowers");
-    flowers.style.backgroundImage = "url('/images/roses.jpg')";
+    flowers.style.backgroundImage = "url('../images/roses.jpg')";
 
     let flowersBg = document.getElementById("flowersBg");
-    flowersBg.style.backgroundImage = "url('/images/roses_bg.jpg')";
+    flowersBg.style.backgroundImage = "url('../images/roses_bg.jpg')";
 
 }
 
@@ -44,7 +44,7 @@ function rose(){
 
 function lily(){
 
-    document.body.style.backgroundImage = "url('/images/lily_bg.jpg')";
+    document.body.style.backgroundImage = "url('../images/lily_bg.jpg')";
 
     let feelings = document.getElementById("feelings");
     feelings.style.color = "#FFD447";
@@ -56,10 +56,10 @@ function lily(){
     rotate();
 
     let flowers = document.getElementById("flowers");
-    flowers.style.backgroundImage = "url('/images/lily.jpg')";
+    flowers.style.backgroundImage = "url('../images/lily.jpg')";
 
     let flowersBg = document.getElementById("flowersBg");
-    flowersBg.style.backgroundImage = "url('/images/lily_bg.jpg')";
+    flowersBg.style.backgroundImage = "url('../images/lily_bg.jpg')";
 
 }
 
@@ -67,7 +67,7 @@ function lily(){
 
 function iris(){
 
-    document.body.style.backgroundImage = "url('/images/iris_bg.jpg')";
+    document.body.style.backgroundImage = "url('../images/iris_bg.jpg')";
 
     let feelings = document.getElementById("feelings");
     feelings.style.color = "#A882DD";
@@ -79,10 +79,10 @@ function iris(){
     rotate();
 
     let flowers = document.getElementById("flowers");
-    flowers.style.backgroundImage = "url('/images/iris.jpg')";
+    flowers.style.backgroundImage = "url('../images/iris.jpg')";
 
     let flowersBg = document.getElementById("flowersBg");
-    flowersBg.style.backgroundImage = "url('/images/iris_bg.jpg')";
+    flowersBg.style.backgroundImage = "url('../images/iris_bg.jpg')";
 
 }
 
@@ -90,7 +90,7 @@ function iris(){
 
 function begonia(){
 
-    document.body.style.backgroundImage = "url('/images/begonia_bg.jpg')";
+    document.body.style.backgroundImage = "url('../images/begonia_bg.jpg')";
 
     let feelings = document.getElementById("feelings");
     feelings.style.color = "#e94f37";
@@ -105,7 +105,7 @@ function begonia(){
     flowers.style.backgroundImage = "url('/images/begonia.jpg')";
 
     let flowersBg = document.getElementById("flowersBg");
-    flowersBg.style.backgroundImage = "url('/images/begonia_bg.jpg')";
+    flowersBg.style.backgroundImage = "url('../images/begonia_bg.jpg')";
 
 }
 
