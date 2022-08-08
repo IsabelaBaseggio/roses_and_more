@@ -4,7 +4,7 @@
 
 #### Status: Done
 
-[![GitHub](https://img.shields.io/github/license/IsabelaBaseggio/Dev-Form)](https://github.com/IsabelaBaseggio/roses_and_more/blob/main/LICENSE)
+[![GitHub](https://img.shields.io/github/license/IsabelaBaseggio/roses_and_more)](https://github.com/IsabelaBaseggio/roses_and_more/blob/main/LICENSE)
 
 
 ## Project Description
