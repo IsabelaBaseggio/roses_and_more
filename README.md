@@ -1,6 +1,6 @@
 # Roses & More
 
-[README(portuguese)](https://github.com/IsabelaBaseggio/Hex-Color-Test/blob/main/README.pt.md)
+[README(portuguese)](https://github.com/IsabelaBaseggio/roses_and_more/blob/main/README.pt.md)
 
 #### Status: Done
 
